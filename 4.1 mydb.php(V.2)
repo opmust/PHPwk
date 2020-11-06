@@ -12,7 +12,7 @@ $conn=mysqli_connect("localhost","root","","mydb");
 $result=mysqli_query($conn,"select * from user");
 
 #3.mysqli_fetch_array從$result擷取每筆資料
-#迴圈做法:$row=mysqli_fetch_array($result)當$result值不為空值重複抓取資料
+#迴圈做法:$row=mysqli_fetch_array($result)當$result值不為空值時重複抓取資料
 while ($row=mysqli_fetch_array($result)){
     echo $row[id]." ".$row[pwd];
     echo "<br>";
