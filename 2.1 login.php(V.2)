@@ -1,0 +1,8 @@
+<?php 
+    #IF式做法
+
+    if (($_GET[id] == "john") && ($_GET[pwd]=="john1234")) #如果$_GET[id]值為 "john" 並且$_GET[pwd]值為"john1234" 回應"Welcome"
+        echo "Welcome";                                    
+    else
+        echo "fail login";                                 #如果($_GET[id] == "john") && ($_GET[pwd]=="john1234")不成立 回應"fail login"
+?>
