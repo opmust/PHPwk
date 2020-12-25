@@ -16,7 +16,7 @@ else{
     else
         echo "新增佈告成功";
     
-    echo "<meta http-equiv='refresh' content='2;url=bulletin.php'>";
+    echo "<meta http-equiv='refresh' content='2;url=bulletin.php'>"; //將頁面跳轉至佈告欄
 }
 
 ?>
